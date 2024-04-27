@@ -1,18 +1,12 @@
 {
-  "name": "abuenashoras-api",
+  "name": "json-server-vercel",
   "version": "1.0.0",
+  "description": "Deploy JSON Server to Vercel",
   "main": "api/server.js",
   "scripts": {
     "start": "node api/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "json-server": "^1.0.0-alpha.23"
-  },
   "dependencies": {
-    "cors": "^2.8.5"
-  },
-  "description": ""
+    "json-server": "^0.17.4"
+  }
 }
